@@ -4,7 +4,7 @@ import httpStatus from "http-status";
 
 import { createContext, useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
-
+import { server } from "../environment.js";
 
 export const AuthContext = createContext({});
 
